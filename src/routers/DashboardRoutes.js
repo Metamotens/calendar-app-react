@@ -1,10 +1,10 @@
 import React from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
-import { MarvelScreen } from '../marvel/MarvelScreen';
-import { HeroScreen } from '../heroes/HeroScreen';
-import { DcScreen } from '../dc/DcScreen';
-import { Navbar } from '../ui/Navbar';
-import { SearchScreen } from '../search/SearchScreen';
+import { MarvelScreen } from '../components/marvel/MarvelScreen';
+import { HeroScreen } from '../components/heroes/HeroScreen';
+import { DcScreen } from '../components/dc/DcScreen';
+import { Navbar } from '../components/ui/Navbar';
+import { SearchScreen } from '../components/search/SearchScreen';
 
 export const DashboardRoutes = () => {
     return (
